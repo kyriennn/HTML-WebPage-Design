@@ -1,5 +1,16 @@
+body {
+    background-color: bisque;
+    font-family: Consolas, sans-serif;
+
+}
+
+
+
 h1 {
-    font: consolas;
+    display: flex;
+    justify-content: center;   /* horizontal */
+    align-items: center;       /* vertical */
+    height: 100vh;
     font-size: 45px;
     color: lightblue;
 
@@ -8,4 +19,16 @@ h1 {
 p1 {
     font: consolas;
     font-size: 22px;
+}
+
+.yes{
+    background-color: green;
+    border: 3px solid black;
+    padding: 10px 20px;
+}
+
+.no{
+    background-color: red;
+    border: 3px solid black;
+    padding: 10px 20px;
 }
