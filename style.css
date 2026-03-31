@@ -1,16 +1,12 @@
 body {
     background-color: bisque;
     font-family: Consolas, sans-serif;
-
+    text-align: center;
 }
 
 
 
 h1 {
-    display: flex;
-    justify-content: center;   /* horizontal */
-    align-items: center;       /* vertical */
-    height: 100vh;
     font-size: 45px;
     color: lightblue;
 
@@ -19,6 +15,11 @@ h1 {
 p1 {
     font: consolas;
     font-size: 22px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
 }
 
 .yes{
